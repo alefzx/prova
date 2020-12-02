@@ -1,10 +1,12 @@
 *** Settings ***
-
-
+Library        JSONLibrary
+Library     RequestsLibrary
+Library     OperatingSystem
 
 *** Variables ***
-${REPO_URL}     https://api.github.com/repos/user/repo
+${REPO_URL}     https://api.github.com/repos/alefzx/prova/issues
 
 *** Keywords ***
 Log Git Repository issues
-    # TODO
+    ${req}=    Get Request  Session    /
+    Log to Console   Get Value From Json    ${req.json()}    $..title
