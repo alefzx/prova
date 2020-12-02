@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.0 on win32)" generated="20201202 16:43:45.764" rpa="false">
+<suite id="s1" name="TestSuite" source="C:\Users\Alexandre\Desktop\prova2\testsuite\TestSuite.robot">
+<test id="s1-t1" name="Log Git Repository issues">
+<status status="FAIL" starttime="20201202 16:43:45.787" endtime="20201202 16:43:45.787" critical="yes">Test case contains no keywords.</status>
+</test>
+<doc>Suite description</doc>
+<status status="FAIL" starttime="20201202 16:43:45.765" endtime="20201202 16:43:45.795"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="TestSuite">TestSuite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
